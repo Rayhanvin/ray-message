@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="image.css">
+        <script src="image.js"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>Memory</title>
+    </head>
+    <body>
+            <header class="header">
+                <a href="#" class="secret">Secret message</a>
+
+                <nav class="navbar">
+                    <a href="index.html">Countdown</a>
+                    <a href="#">Memory</a>
+                    <a href="wishlist.html">Wishlist</a>
+                </nav>
+            </header>
+        
+        <div class="container">
+            <div class="image-section">
+                <img src="memory\1.jpeg" alt="">
+                <img src="memory\2.jpeg" alt="">
+                <img src="memory\3.jpeg" alt="">
+                <img src="memory\4.jpeg" alt="">
+            </div>
+            <div class="direction">
+                <i class='bx bx-chevron-left' onclick="Side_Slide(-1)"></i>
+                <i class='bx bx-chevron-right' onclick="Side_Slide(1)" ></i>
+            </div>
+            <div class="counter">
+                <span onclick="Slider_btn(1)"></span>
+                <span onclick="Slider_btn(2)"></span>
+                <span onclick="Slider_btn(3)"></span>
+                <span onclick="Slider_btn(4)"></span>
+            </div>
+        </div>
+
+        <script src="image.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

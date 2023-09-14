@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" id="style" href="style.css">
+        <script src="main.js" defer></script>
+        <title>Countdown Timer</title>
+    </head>
+    <body>
+        <header class="header">
+            <a class="secret">Secret message</a>
+
+            <nav class="navbar">
+                <a id="coret" href="#">Countdown</a>
+                <a href="image.html">Memory</a>
+                <a href="wishlist.html">Wishlist</a>
+                <a href="about.html">About Us</a>
+            </nav>
+        </header>
+        <div class="container">
+            <h1 id="headline">Sabar bang</h1>
+            <div id="countdown" class="countdown">
+                <ul>
+                    <li><span id="days">00</span>days</li>
+                    <li><span id="hours">00</span>hours</li>
+                    <li class="seperator">:</li>
+                    <li><span id="minutes">00</span>minutes</li>
+                    <li class="seperator">:</li>
+                    <li><span id="seconds">00</span>seconds</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="lock">
+            <a id="lock" href="#"><ion-icon name="lock-closed-outline"></ion-icon></a>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

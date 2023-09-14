@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" id="style" href="wishlist.css">
+        <title>Countdown Timer</title>
+    </head>
+    <body>
+        <header class="header">
+            <a class="secret">Secret message</a>
+            <a class="date">Quality time?</a>
+            <nav class="navbar">
+                <a id="coret" href="index.html">Countdown</a>
+                <a href="image.html">Memory</a>
+                <a href="#">Wishlist</a>
+            </nav>
+        </header>
+        <div class="full-img" id="fullImgBox">
+            <img src="date/1.png" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+        <div class="img-gallery">
+            <img src="date/1.png" onclick="openFullImg(this.src)">
+            <img src="date/2.png" onclick="openFullImg(this.src)">
+            <img src="date/3.png" onclick="openFullImg(this.src)">
+            <img src="date/4.png" onclick="openFullImg(this.src)">
+            <img src="date/5.png" onclick="openFullImg(this.src)">
+            <img src="date/6.png" onclick="openFullImg(this.src)">
+            <img src="date/7.png" onclick="openFullImg(this.src)">
+            <img src="date/8.png" onclick="openFullImg(this.src)">
+            <img src="date/9.png" onclick="openFullImg(this.src)">
+            <img src="date/10.png" onclick="openFullImg(this.src)">
+        </div>
+
+    <script>
+
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+
+        function openFullImg(pic){
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+
+        function closeFullImg(){
+            fullImgBox.style.display = "none";
+        }
+
+    </script>
+    </body>
+</html>
