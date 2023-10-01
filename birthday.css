@@ -18,61 +18,16 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-/* Nav */
-h1 { 
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-    font-weight: normal;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: center;
+body::-webkit-scrollbar {
+    display:none;
 }
-
-ul {
-    display: flex;
-    justify-content: center;
-}
-
-ul li {
-    list-style-type: none;
-    font-size: 1rem;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-li span {
-    display: block;
-    font-size: 6rem;
-    color: #f41b4b;
-}
-
-li.seperator {
-    margin: 0;
-    font-size: 6rem;
-    line-height: 1;
-    color: #f41b4b;
-}
-
-li:first-of-type {
-    margin-right: 3rem;
-}
-
-/* File */
-.lock {
-    position: fixed;
-    bottom: 0;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1,5rem;
-}
-
-.lock a {
-    color: inherit;
-    font-size: 3rem;
-}
+/*text */
+.text {
+    border: 100vw;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f08080;
+  }
 
 /* navigation */
 .header {

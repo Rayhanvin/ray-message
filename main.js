@@ -4,7 +4,7 @@ var minutesE1 = document.getElementById('minutes')
 var secondsE1 = document.getElementById('seconds')
 
 function countdownTimer() {
-    const countDownDate = new Date('09/02/2023 23:10:45').getTime()
+    const countDownDate = new Date('05/14/2024 00:00:00').getTime()
 
     // Convert to milliseconds
     const second = 1000
@@ -28,7 +28,7 @@ function countdownTimer() {
         document.getElementById('headline').innerText = 'Silahkan di download'
         document.getElementsByClassName('lock').innerText = '<ion-icon name="cloud-download-outline"></ion-icon>'
         document.getElementById("lock").href = "story.html";
-        document.getElementById("lock").dowload = "for Ce";
+        document.getElementById("lock").download = "for Ce";
         document.getElementById('countdown').style.display = 'none'
         document.getElementById("style").href = "style2.css";
         document.getElementById("coret").innerText = 'File';

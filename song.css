@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
 *   {
 margin: 0;
 padding: 0;
@@ -20,58 +22,18 @@ body{
 }
 
 /* Nav */
-h1 { 
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-    font-weight: normal;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+div #text {
+    color: #000000;
+    position: relative;
     text-align: center;
+    top: 33px;
 }
 
-ul {
-    display: flex;
-    justify-content: center;
-}
-
-ul li {
-    list-style-type: none;
-    font-size: 1rem;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-li span {
-    display: block;
-    font-size: 6rem;
-    color: #f41b4b;
-}
-
-li.seperator {
-    margin: 0;
-    font-size: 6rem;
-    line-height: 1;
-    color: #f41b4b;
-}
-
-li:first-of-type {
-    margin-right: 3rem;
-}
-
-/* File */
-.lock {
-    position: fixed;
-    bottom: 0;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1,5rem;
-}
-
-.lock a {
-    color: inherit;
-    font-size: 3rem;
+iframe{
+    position: relative;
+    width: 200vh;
+    height: 80vh;
+    bottom: -40px;
 }
 
 /* navigation */

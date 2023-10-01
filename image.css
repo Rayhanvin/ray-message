@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
-
 *   {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'Roboto', sans-serif;
+font-family: 'Candara', sans-serif;
 }
 
 body{
@@ -78,7 +76,7 @@ body{
     display: flex;
     position: absolute;
     bottom: 15px;
-    left: 45%;
+    left: 40%;
 }
 
 .counter span {
