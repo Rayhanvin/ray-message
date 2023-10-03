@@ -10,9 +10,13 @@ font-family: 'Candara', sans-serif;
 }
 
 @media (min-width: 600px) {
-  .column {
-    width: 50%;
-  }
+  main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
+    }
 }
 
 body{
