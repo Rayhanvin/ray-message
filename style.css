@@ -5,20 +5,6 @@ box-sizing: border-box;
 font-family: 'Candara', sans-serif;
 }
 
-.column {
-  width: 100%;
-}
-
-@media (min-width: 600px) {
-  main {
-      flex-wrap: nowrap;
-    }
-
-    div {
-      flex-basis: 33%;
-    }
-}
-
 body{
     width: 100%;
     min-height: 100vh;
