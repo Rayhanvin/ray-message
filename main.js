@@ -4,7 +4,7 @@ var minutesE1 = document.getElementById('minutes')
 var secondsE1 = document.getElementById('seconds')
 
 function countdownTimer() {
-    const countDownDate = new Date('05/14/2024 00:00:00').getTime()
+    const countDownDate = new Date('09/14/2024 00:00:00').getTime()
 
     // Convert to milliseconds
     const second = 1000
@@ -28,7 +28,7 @@ function countdownTimer() {
         document.getElementById('headline').innerText = 'I"ll always love you'
         document.getElementById('countdown').style.display = 'none'
         document.getElementById("style").href = "style2.css";
-        document.getElementById("coret").innerText = 'File';
+        document.getElementById("coret").innerText = 'End';
         // Stop interval
         clearInterval (interval)
     }
