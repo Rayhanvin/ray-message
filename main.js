@@ -25,10 +25,7 @@ function countdownTimer() {
 
     // When date is reached
     if(distance < 0){
-        document.getElementById('headline').innerText = 'Silahkan di download'
-        document.getElementsByClassName('lock').innerText = '<ion-icon name="cloud-download-outline"></ion-icon>'
-        document.getElementById("lock").href = "story.html";
-        document.getElementById("lock").download = "for Ce";
+        document.getElementById('headline').innerText = 'I"ll always love you'
         document.getElementById('countdown').style.display = 'none'
         document.getElementById("style").href = "style2.css";
         document.getElementById("coret").innerText = 'File';
